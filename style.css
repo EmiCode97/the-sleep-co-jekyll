@@ -2,11 +2,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-
-body {
-    font-family: 'Source Sans Pro, sans-serif';
-}
+  }
+  
+  /* div {
+    border: 1px solid grey;
+  } */
   
   /* Utility Classes */
   .padded { padding: 5%; }
@@ -15,25 +15,23 @@ body {
   .bg-light { background-color: white; }
   .light-text { color: #212529; }
   
-.bg-image {
-    background-color: lightblue;
-    background-image: url('/images/wowsea.jpg');
+  .bg-image { 
+  background-color: #c8d6e5;
+  background-image: url('https://source.unsplash.com/zNRITe8NPqY');
     background-size: cover;
     background-position: center;
-    padding: 0.5rem;
+    padding: 1.5rem;
     padding-bottom: 50%;
-    color: white;
-}
+    color: black;
+  }
   
   bg.image span {
     text-transform: uppercase;
     font-weight: 600;
   }
-  
+
   .portrait { padding-bottom: 120%;}
-
-
-
+  
   /* Universal Styles */
   h2, h3, h4, h5, h6 {
     line-height: 1.1;
@@ -42,7 +40,7 @@ body {
   
   p {
     line-height: 1.2;
-    font-size: 0.9rem;
+    fonnt-size: 0.9rem;
     margin-bottom: 0.8rem;
   }
   
@@ -59,7 +57,7 @@ body {
   }
   
   .post-info {
-    padding: 1rem;
+    paddinng: 1rem;
   }
   
   .date { 
@@ -72,9 +70,6 @@ body {
     margin-top: 1rem;
   }
   
-
-  /* font-family: 'Gowun Dodum', sans-serif;
-  font-family: 'Scope One', serif; */
-
-
-  
+  font-family: 'Gowun Dodum', sans-serif;
+  font-family: 'Scope One', serif;
+  font-family: 'Source Sans Pro', sans-serif;

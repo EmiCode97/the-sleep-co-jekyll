@@ -7,19 +7,16 @@ news:
    date: 29th Apr
    category: blog
    url: https://www.isla.com
-
  - title: Bali
    description: Exciting things are happening!
    date: 3rd May
    category: blog
    url: https://www.isla.com
-
  - title: Seychelles
    description: Exciting things are happening!
    date: 25th May
    category: blog
    url: https://www.isla.com
-
  - title: Hawaii
    description: Exciting things are happening!
    date: 14th June
@@ -35,8 +32,8 @@ news:
 
   <!-- first card -->
     <div class="col-3_xs-8">
-      <div class="card">
-          <div class="bg-image portrait"> 
+      <div class="card"> 
+        <div class="bg-image portrait"> 
       <span> {{item.category}} </span>
     </div> 
       
@@ -44,11 +41,14 @@ news:
       <p class="date"> {{item.date}}</p> 
       <h3> {{item.title}} </h3>
       <p>  {{item.description}} </p>
-      <a href="{{item.url}}"> Find out more &nbsp; &#10141 </a>
+      <a href="{{item.url}}"> Let's see &nbsp; &#10141 </a>
   </div> 
+  </div>
  </div>
-</div>      
 
 {% endfor %}
 
 </section>
+
+
+
