@@ -1,27 +1,54 @@
 ---
 layout: default
 title: Home
+news: 
+ - title: Maldives
+   description: Exciting things are happening!
+   date: 29th Apr
+   category: blog
+   url: https://www.isla.com
+
+ - title: Bali
+   description: Exciting things are happening!
+   date: 3rd May
+   category: blog
+   url: https://www.isla.com
+
+ - title: Seychelles
+   description: Exciting things are happening!
+   date: 25th May
+   category: blog
+   url: https://www.isla.com
+
+ - title: Hawaii
+   description: Exciting things are happening!
+   date: 14th June
+   category: blog
+   url: https://www.isla.com
+
 ---
 
-<section> 
-<div class="card"> 
-    <h2> Apple </h2>jeky
-    <p> The best fruit. </p>
-</div>
+<section class="grid-spaceBetween padded bg-featured latest-news"> 
+    
+  
+{% for item in page.news %}
 
-<div class="card"> 
-    <h2> Pineapple </h2>
-    <p> The second best fruit. </p>
-</div>
+  <!-- first card -->
+    <div class="col-3_xs-8">
+      <div class="card">
+          <div class="bg-image portrait"> 
+      <span> {{item.category}} </span>
+    </div> 
+      
+    <div class="post-info"> 
+      <p class="date"> {{item.date}}</p> 
+      <h3> {{item.title}} </h3>
+      <p>  {{item.description}} </p>
+      <a href="{{item.url}}"> Find out more &nbsp; &#10141 </a>
+  </div> 
+ </div>
+</div>      
 
-<div class="card"> 
-    <h2> Banana </h2>
-    <p> The third best fruit. </p>
-</div>
-
-<div class="card"> 
-    <h2> Strawberry </h2>
-    <p> The wow fruit. </p>
-</div>
+{% endfor %}
 
 </section>

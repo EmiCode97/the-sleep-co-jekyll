@@ -4,10 +4,77 @@
     box-sizing: border-box;
 }
 
-header,
-footer {
-    background-color: lightblue;
-    padding: 5%;
+body {
+    font-family: 'Source Sans Pro, sans-serif';
 }
+  
+  /* Utility Classes */
+  .padded { padding: 5%; }
+  .padded-1 { padding: 1rem; }
+  .bg-featured { background-color: #f6f2f0; }
+  .bg-light { background-color: white; }
+  .light-text { color: #212529; }
+  
+.bg-image {
+    background-color: lightblue;
+    background-image: url('/images/wowsea.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 0.5rem;
+    padding-bottom: 50%;
+    color: white;
+}
+  
+  bg.image span {
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  
+  .portrait { padding-bottom: 120%;}
 
-section { padding: 5%; }
+
+
+  /* Universal Styles */
+  h2, h3, h4, h5, h6 {
+    line-height: 1.1;
+    margin-bottom: 0.8rem;
+  }
+  
+  p {
+    line-height: 1.2;
+    font-size: 0.9rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  a {
+    font-size: 0.8rem;
+    text-decoration: none;
+    
+  }
+  
+  /* Card Styles */
+  .card { 
+    background-color: #f6f2f0;
+    padding: 0;
+  }
+  
+  .post-info {
+    padding: 1rem;
+  }
+  
+  .date { 
+    font-size: 0.8rem;
+    color: rgb(90,90,90);
+  }
+  
+  .card a {
+    display: inline-block;
+    margin-top: 1rem;
+  }
+  
+
+  /* font-family: 'Gowun Dodum', sans-serif;
+  font-family: 'Scope One', serif; */
+
+
+  
